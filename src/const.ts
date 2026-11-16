@@ -13,14 +13,14 @@ export const WEDDING_DATE = dayjs.tz("2026-11-07 14:30", "Asia/Seoul")
 export const WEDDING_DATE_FORMAT = `YYYY년 MMMM D일 dddd A h시${WEDDING_DATE.minute() === 0 ? "" : " m분"}`
 export const HOLIDAYS: number[] = []
 
-export const LOCATION = "예시 웨딩홀"
-export const LOCATION_ADDRESS = "예식장 주소를 입력해 주세요."
+export const LOCATION = "아르베 웨딩"
+export const LOCATION_ADDRESS = "서울시 강남구 봉은사로 302"
 export const SHARE_ADDRESS = LOCATION_ADDRESS
 export const SHARE_ADDRESS_TITLE = LOCATION
 
 // [경도, 위도] 순서로 입력합니다.
-export const WEDDING_HALL_POSITION: [number, number] | null = null
-export const NMAP_PLACE_ID: number | null = null
+export const WEDDING_HALL_POSITION: [number, number] | null = [127.0391074, 37.5086667]
+export const NMAP_PLACE_ID: number | null = 1681062430
 
 export const PRIMARY_PARKING: {
   name: string
