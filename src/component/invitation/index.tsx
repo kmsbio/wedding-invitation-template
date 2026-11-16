@@ -72,20 +72,17 @@ export const Invitation = () => {
                     ({ relation, name, phone }) => (
                       <Fragment key={relation}>
                         <div className="relation">{relation}</div>
-                        <div>{name}</div>
                         <div>
-                          <PhoneIcon
-                            className="flip icon"
-                            onClick={() => {
-                              window.open(`tel:${phone}`, "_self")
-                            }}
-                          />
-                          <EnvelopeIcon
-                            className="icon"
-                            onClick={() => {
-                              window.open(`sms:${phone}`, "_self")
-                            }}
-                          />
+                          {name}
+                          <span className="contact-phone">{phone}</span>
+                        </div>
+                        <div className="contact-actions">
+                          <a href={`tel:${phone}`} aria-label={`${name}에게 전화하기`}>
+                            <PhoneIcon className="flip icon" aria-hidden="true" />
+                          </a>
+                          <a href={`sms:${phone}`} aria-label={`${name}에게 문자 보내기`}>
+                            <EnvelopeIcon className="icon" aria-hidden="true" />
+                          </a>
                         </div>
                       </Fragment>
                     ),
@@ -96,20 +93,17 @@ export const Invitation = () => {
                     ({ relation, name, phone }) => (
                       <Fragment key={relation}>
                         <div className="relation">{relation}</div>
-                        <div>{name}</div>
                         <div>
-                          <PhoneIcon
-                            className="flip icon"
-                            onClick={() => {
-                              window.open(`tel:${phone}`, "_self")
-                            }}
-                          />
-                          <EnvelopeIcon
-                            className="icon"
-                            onClick={() => {
-                              window.open(`sms:${phone}`, "_self")
-                            }}
-                          />
+                          {name}
+                          <span className="contact-phone">{phone}</span>
+                        </div>
+                        <div className="contact-actions">
+                          <a href={`tel:${phone}`} aria-label={`${name}에게 전화하기`}>
+                            <PhoneIcon className="flip icon" aria-hidden="true" />
+                          </a>
+                          <a href={`sms:${phone}`} aria-label={`${name}에게 문자 보내기`}>
+                            <EnvelopeIcon className="icon" aria-hidden="true" />
+                          </a>
                         </div>
                       </Fragment>
                     ),

@@ -34,6 +34,7 @@ export const PRIMARY_PARKING: {
   kakaoPlaceId: 1392672680,
 }
 
+const SAMPLE_PHONE = "010-0000-0000"
 const SAMPLE_ACCOUNT = "신한은행 110-111-111111"
 
 export const BRIDE_FULLNAME = "박다온"
@@ -45,7 +46,7 @@ export const BRIDE_INFO = [
   {
     relation: "신부",
     name: BRIDE_FULLNAME,
-    phone: "",
+    phone: SAMPLE_PHONE,
     account: SAMPLE_ACCOUNT,
   },
 ]
@@ -59,7 +60,7 @@ export const GROOM_INFO = [
   {
     relation: "신랑",
     name: GROOM_FULLNAME,
-    phone: "",
+    phone: SAMPLE_PHONE,
     account: SAMPLE_ACCOUNT,
   },
 ]

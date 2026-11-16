@@ -56,7 +56,7 @@ VITE_STATIC_ONLY=true
 | 링크 공유 미리보기와 배포 주소 | [public/preview_image.jpg](public/preview_image.jpg) · [package.json의 `homepage`](package.json) |
 | 공통 스타일과 반응형 레이아웃 | [src/App.scss](src/App.scss) |
 
-기본 예식장은 아르베 웨딩이며, 전화번호는 비워 두었습니다. 교통·주차·식사 안내와 계좌번호는 편집용 예시입니다. 실제 예식에 맞춰 내용을 바꿔 사용하세요.
+기본 예식장은 아르베 웨딩입니다. 신랑·신부 연락처에는 예시 번호 `010-0000-0000`을 사용합니다. 교통·주차·식사 안내와 계좌번호도 편집용 예시입니다. 실제 예식에 맞춰 내용을 바꿔 사용하세요.
 
 ## GitHub Pages 배포
 

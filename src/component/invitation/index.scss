@@ -54,6 +54,16 @@
         opacity: 0.7;
       }
 
+      .contact-phone {
+        display: block;
+        font-size: 0.8rem;
+        white-space: nowrap;
+      }
+
+      .contact-actions {
+        display: flex;
+      }
+
       .icon {
         fill: var(--dark-color);
         margin: 0 0.5rem 0 0.5rem;
