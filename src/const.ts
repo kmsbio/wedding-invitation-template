@@ -9,7 +9,7 @@ dayjs.locale("ko")
 
 export { dayjs }
 
-export const WEDDING_DATE = dayjs.tz("2027-05-15 14:00", "Asia/Seoul")
+export const WEDDING_DATE = dayjs.tz("2026-11-07 14:30", "Asia/Seoul")
 export const WEDDING_DATE_FORMAT = `YYYY년 MMMM D일 dddd A h시${WEDDING_DATE.minute() === 0 ? "" : " m분"}`
 export const HOLIDAYS: number[] = []
 
@@ -28,11 +28,13 @@ export const PRIMARY_PARKING: {
   position: [number, number] | null
   kakaoPlaceId: number | null
 } = {
-  name: "예시 주차장",
-  address: "주차장 주소를 입력해 주세요.",
-  position: null,
-  kakaoPlaceId: null,
+  name: "경복주차장",
+  address: "서울시 강남구 논현동 237-12",
+  position: [127.03728762, 37.50852372],
+  kakaoPlaceId: 1392672680,
 }
+
+const SAMPLE_ACCOUNT = "신한은행 110-111-111111"
 
 export const BRIDE_FULLNAME = "박다온"
 export const BRIDE_FIRSTNAME = "다온"
@@ -44,7 +46,7 @@ export const BRIDE_INFO = [
     relation: "신부",
     name: BRIDE_FULLNAME,
     phone: "",
-    account: "예시은행 000-0000-000000 (예시)",
+    account: SAMPLE_ACCOUNT,
   },
 ]
 
@@ -58,6 +60,6 @@ export const GROOM_INFO = [
     relation: "신랑",
     name: GROOM_FULLNAME,
     phone: "",
-    account: "예시은행 000-0000-000000 (예시)",
+    account: SAMPLE_ACCOUNT,
   },
 ]

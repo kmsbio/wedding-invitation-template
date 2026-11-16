@@ -23,7 +23,21 @@ export const Location = () => {
           <div className="heading">대중교통</div>
           <div />
           <div className="content">
-            가까운 지하철역과 버스 정류장, 도보 경로를 안내해 주세요.
+            * 지하철 이용시 (도보 5분)
+            <br />
+            - 선정릉역 (9호선/수인분당선) 4번 출구
+            <br />
+            - 언주역 (9호선) 5번 출구
+            <br />
+          </div>
+          <div />
+          <div className="content">
+            * 버스 이용 시
+            <br />
+            - 스포월드, 라움아트센터 / 간선(파랑): 141, 242
+            <br />
+            - 아크로힐스논현 / 지선(초록): 3412, 6411
+            <br />
           </div>
         </div>
         <div className="location-info">
@@ -33,9 +47,21 @@ export const Location = () => {
           <div className="heading">자가용</div>
           <div />
           <div className="content">
-            {PRIMARY_PARKING.name}
+            외부 주차장 이용가능 (2시간 무료주차)
+            <br />- 제1주차장({PRIMARY_PARKING.name})
             <br />
-            {PRIMARY_PARKING.address}
+            &nbsp;&nbsp;{PRIMARY_PARKING.address}
+            <br />
+            - 제2주차장(국민은행)
+            <br />
+            &nbsp;&nbsp;서울시 강남구 언주로 603
+            <br />
+          </div>
+          <div />
+          <div className="content">
+            <b style={{ wordBreak: "keep-all" }}>
+              ※ 주차혼잡이 예상되오니 가급적 대중교통 이용 부탁드립니다.
+            </b>
           </div>
         </div>
       </LazyDiv>

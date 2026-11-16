@@ -56,7 +56,7 @@ VITE_STATIC_ONLY=true
 | 링크 공유 미리보기와 배포 주소 | [public/preview_image.jpg](public/preview_image.jpg) · [package.json의 `homepage`](package.json) |
 | 공통 스타일과 반응형 레이아웃 | [src/App.scss](src/App.scss) |
 
-기본값에서는 전화번호, 지도 좌표 및 장소 ID를 비워 두었습니다. 해당 값을 등록하면 연락처 버튼 또는 지도가 활성화됩니다. 계좌번호는 화면 표시를 위한 예시입니다.
+기본값에서는 전화번호와 예식장 지도 좌표 및 장소 ID를 비워 두었습니다. 교통·주차·식사 안내와 계좌번호는 편집용 예시입니다. 실제 예식에 맞춰 내용을 바꿔 사용하세요.
 
 ## GitHub Pages 배포
 
